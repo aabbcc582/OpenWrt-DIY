@@ -39,7 +39,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: P3TERX/ssh2actions@v1.0.0
+      uses: actions/checkout@main
 
     - name: Initialization environment
       env:
